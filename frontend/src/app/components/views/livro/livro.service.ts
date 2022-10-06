@@ -10,7 +10,7 @@ import { Livro } from './livro.model';
 })
 export class LivroService {
 
-  baseUrl: String = environment.baseUrl
+  baseUrl: String = environment.propUrl;
 
   constructor(private http: HttpClient, private _snack: MatSnackBar) { }
 
