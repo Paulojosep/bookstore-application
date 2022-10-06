@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   desenvUrl: 'http://localhost:8080',
-  propUrl: 'https://book-storerapi.herokuapp.com'
+  baseUrl: 'https://book-storerapi.herokuapp.com'
 };
 
 /*

@@ -10,7 +10,7 @@ import { Categoria } from './categoria.model'
 })
 export class CategoriaService {
 
-  baseUrl: String = environment.propUrl;
+  baseUrl: String = environment.baseUrl;
 
   constructor(private http: HttpClient, private _snack: MatSnackBar) { }
 
