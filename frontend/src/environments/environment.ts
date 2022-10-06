@@ -3,9 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: true,
+  production: false,
   desenvUrl: 'http://localhost:8080',
-  baseUrl: 'https://book-storerapi.herokuapp.com'
+  propUrl: 'https://book-storerapi.herokuapp.com'
 };
 
 /*
